@@ -10,14 +10,16 @@
 
 /* Header Styles */
 .banner {
+    
     background-image: url(../img/BannerImage.png);
+    background-color: rgba(94, 93, 93, 0.7);
     background-repeat: no-repeat;
     border-radius: 20px;
     margin: 40px 150px 0px 150px;
     background-size: cover;
     padding: 200px 150px;
-
 }
+
 
 .banner-title {
     color: #FFF;
@@ -91,7 +93,6 @@ section {
     padding: 60px 100px;
 }
 
-/* .party-texts {} */
 
 .party-title {
     color: #FFF;
@@ -111,7 +112,7 @@ section {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+
 }
 
 .join {
@@ -122,21 +123,88 @@ section {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin: 40px 0 0 40px;
+    margin: 20px 0 ;
+    padding: 15px 20px;
+    background-color: #ebd1d14a;
+    border: 0;
+    border-radius: 20px;
 }
+
+
 
 .party-img {
     height: 350px;
 }
 
-.port-title{
+
+.bonus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bonus-side-a,
+.bonus-side-c {
+    width: 350px;
+}
+
+.bonus-side-b {
+    border: 10px solid red;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.bonus-side-b>img {
+    width: 350px;
+}
+
+.bonus-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.bonus-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.bonus-text {    
+    margin-bottom: 15px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bonus-year {    
+    margin-bottom: 15px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.bonus-img {
+    width: 150px;
+}
+
+.port-title {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
 
-.port-heading{
+.port-heading {
     margin-top: 20px;
     color: #070211;
     font-family: Merriweather;
@@ -144,27 +212,89 @@ section {
     font-weight: 900;
 }
 
-.port-text{
-    margin-top: 20px;
+.port-text {
+    margin: 20px 0;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
     width: 900px;
 }
 
-.port-images{
+.port-images {
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
 }
 
-.port-img{
-    border-radius: 16px;
+.port-img {
+    border-radius: 20px;
     width: 390px;
 }
 
+.port-img:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
+.subscribe {
+    border-radius: 20px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 200px;
+}
+
+.sub-img {
+    width: 175px;
+    height: 175px;
+}
+
+.sub-title {
+    margin-top: 30px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-text {
+    margin-top: 30px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    /* 160% */
+}
+
+form {
+
+    margin-top: 30px;
+}
+
+.subscribe>form>button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 25px 50px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subscribe>form>input {
+    border-radius: 50px 0 0 50px;
+    background: rgb(255, 255, 255);
+    padding: 25px 50px;
+    width: 500px;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+}
 
 /* Footer Styles */
 
@@ -192,13 +322,15 @@ footer {
     margin-top: 50px;
 }
 
-.footer-top p , .footer-bottom p{
+.footer-top p,
+.footer-bottom p {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     line-height: 40px;
 }
-.f-side-a{
+
+.f-side-a {
     width: 350px;
 }
 
@@ -216,10 +348,11 @@ footer {
 
 .footer-icons {
     display: flex;
-justify-content: center;
-border-bottom: 1px solid #fff;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
 }
+
 .icon {
-width: 50px;
-margin: 40px 25px;
+    width: 50px;
+    margin: 40px 25px;
 }
