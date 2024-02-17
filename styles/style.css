@@ -11,10 +11,11 @@
 /* Header Styles */
 .banner {
     background-image: url(../img/BannerImage.png);
+    background-repeat: no-repeat;
     border-radius: 20px;
-    margin: 50px 150px;
+    margin: 40px 150px 0px 150px;
     background-size: cover;
-    padding: 100px 150px;
+    padding: 200px 150px;
 
 }
 
@@ -30,7 +31,7 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 60px;
+    font-size: 72px;
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
@@ -39,9 +40,43 @@
 
 
 /* Main Styles */
-main{
+main {
     margin: 0px 150px;
 }
 
+.offer {
+    margin-top: 120px;
+}
+
+.offer-title {
+    color: #ff0000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-text {
+    margin-top: 50px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.categories {
+    margin: 20px 0px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.cat-img {
+    display: block;
+    margin: 0 auto;
+}
 
 /* Footer Styles */
